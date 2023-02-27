@@ -1,5 +1,3 @@
-setwd("C:/Users/panze/Desktop/BAYESIAN STATISTICS/PROGETTO/Dataset")
-
 library(dplyr)
 
 #DATASET WITHOUT COORDINATES
