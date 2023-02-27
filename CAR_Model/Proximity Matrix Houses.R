@@ -1,8 +1,6 @@
-setwd("C:/Users/panze/Desktop/BAYESIAN STATISTICS/PROGETTO/Dataset")
-
 #Costruisco la Proximity Matrix matrixpos[i,j] dove matrixpos[i,j]=1 se
-#- i è una casa di un certo neighborhood e j è un'altra casa di quello stesso neighborhood  
-#- i è una casa di un certo neighborhood e j è una qualsiasi casa di un neighborhood confinante con il neighborhood a cui appartiene i  
+#- i Ã¨ una casa di un certo neighborhood e j Ã¨ un'altra casa di quello stesso neighborhood  
+#- i Ã¨ una casa di un certo neighborhood e j Ã¨ una qualsiasi casa di un neighborhood confinante con il neighborhood a cui appartiene i  
 
 train <- read.csv("traintransf.csv", header=TRUE, sep=";")
 n <- dim(train)[1]
@@ -10,7 +8,7 @@ n <- dim(train)[1]
 matrixpos <- matrix(rep(0,n*n),nrow=n,ncol=n)
 
 
-#matrixpos[i,j]=1 se i è una casa di un certo neighborhood e j è una qualsiasi casa di un neighborhood confinante con il neighborhood a cui appartiene i  
+#matrixpos[i,j]=1 se i Ã¨ una casa di un certo neighborhood e j Ã¨ una qualsiasi casa di un neighborhood confinante con il neighborhood a cui appartiene i  
 
 #Blmngtn-Gilbert
 for(i in 1:24) {
@@ -433,7 +431,7 @@ for(i in 2289:2305) {
 }
 
 
-#matrixpos[i,j]=1 se i è una casa di un certo neighborhood e j è un'altra casa di quello stesso neighborhood
+#matrixpos[i,j]=1 se i Ã¨ una casa di un certo neighborhood e j Ã¨ un'altra casa di quello stesso neighborhood
 
 #Blmngtn-Blmngtn
 for(i in 1:24) {
@@ -620,7 +618,7 @@ for(i in 1:2305) {
 }
 
 
-#Verifico simmetria (se p=1 la matrice è simmetrica)
+#Verifico simmetria (se p=1 la matrice Ã¨ simmetrica)
 p=1
 for (i in 1:2305) {
   for (j in 1:2305) {
