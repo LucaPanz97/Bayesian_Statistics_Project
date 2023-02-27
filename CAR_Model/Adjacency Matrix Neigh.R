@@ -1,5 +1,3 @@
-setwd("C:/Users/panze/Desktop/BAYESIAN STATISTICS/PROGETTO/Dataset")
-
 library(spdep)
 library(maps)
 library(maptools)
@@ -12,7 +10,7 @@ n <- dim(train)[1]
 
 #Guardiamo quanti sono i quartieri
 
-quartieri=levels(as.factor(train$Neighborhood)) #25 quartieri servirà una matrice 25 per 25
+quartieri=levels(as.factor(train$Neighborhood)) #25 quartieri servirÃ  una matrice 25 per 25
 
 prova=matrix(data=0,nrow=25,ncol=25)
 
@@ -117,7 +115,7 @@ write.table(Wfinale, "Adjmatrixout.csv",
 
 p=1
 
-#Verifico simmetria (se p=1 la matrice è simmetrica)
+#Verifico simmetria (se p=1 la matrice Ã¨ simmetrica)
 
 for ( i in 1:25) {
   for (j in 1:25) {
