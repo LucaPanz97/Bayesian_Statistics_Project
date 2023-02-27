@@ -1,5 +1,3 @@
-setwd("C:/Users/panze/Desktop/BAYESIAN STATISTICS/PROGETTO/Dataset")
-
 #house12 <- read.csv("house12.csv", header=TRUE, sep=",", row.names=1)
 #house <- read.csv("house.csv", header=TRUE, sep=",", row.names=1)
 #house12$Neighborhood <- house$Neighborhood
