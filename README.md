@@ -2,17 +2,14 @@
 
 # Goal
 
-The goal of this project is to develop a model for predicting and explaining the In this project we have worked on real-estate data with the goal of developing a model
-which can predict and explain the price of houses.
-Given the broadness of the scope of the project we have decided to start by developing
-several models coming from well-known areas of research: mixed effect models, autoregressive processes [8], CAR models, Gaussian processes and latent Gaussian Markov
-random fields. We have then selected the best models considering their computational
-performance and the posterior inclusion probabilities of the regressors. Finally we have
-created an ensemble model averaging the selected models with Akaike weights [7].
-To fit and test the models we have used the Ames housing prices dataset [2], which
-contains data on the houses sold in Ames (Iowa) between 2006 and 2010.
-Development of a model to predict and explain the price of houses in Ames (Iowa), following a bayesian approach 
+The goal of this project is to develop a Bayesian model for predicting and explaining house prices in Ames, Iowa.
+Given the multifaceted nature of this task, we have opted to follow a comprehensive approach: 
+1. Model Diversity: we explore a variety of models sourced from well-established research domains, including Mixed Effect Models, Autoregressive Processes, Conditional Autoregressive (CAR) Models, Gaussian Processes and Latent Gaussian Markov Random Fields.
+2. Model Selection: to ensure the highest quality of predictions and insights, we rigorously assess the performance of each model and the posterior inclusion probabilities of the regressors. This meticulous selection process guides us in choosing the most effective models.
+3. Model Ensembling: we create an ensemble model that amalgamates the capabilities of the chosen models using Akaike weights. This ensemble approach enhances our predictive accuracy and robustness.
 
 # Authors
+
+Tommaso Bonetti
 
 # Acknowledgments
