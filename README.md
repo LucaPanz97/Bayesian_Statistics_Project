@@ -2,7 +2,7 @@
 
 # Goal
 
-In this project we have worked on real-estate data with the goal of developing a model
+The goal of this project is to develop a model for predicting and explaining the In this project we have worked on real-estate data with the goal of developing a model
 which can predict and explain the price of houses.
 Given the broadness of the scope of the project we have decided to start by developing
 several models coming from well-known areas of research: mixed effect models, autoregressive processes [8], CAR models, Gaussian processes and latent Gaussian Markov
